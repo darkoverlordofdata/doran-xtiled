@@ -1,0 +1,46 @@
+{
+  "name": "xtiled",
+  "template": "package",
+  "version": "0.0.1",
+  "vala": "0.26",
+  "authors": [],
+  "description": "xtiled",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {},
+  "source": "src",
+  "files": [
+    "src/LayerList.vala",
+    "src/Map.vala",
+    "src/Line.vala",
+    "src/MapObject.vala",
+    "src/MapReader.vala",
+    "src/ObjectLayer.vala",
+    "src/Polygon.vala",
+    "src/Polyline.vala",
+    "src/Tile.vala",
+    "src/TileData.vala",
+    "src/Property.vala",
+    "src/Tileset.vala",
+    "src/TileLayer.vala",
+    "src/xtiled.vala"
+  ],
+  "packages": [
+    "gio-2.0",
+    "glib-2.0",
+    "gobject-2.0"
+  ],
+  "includes": null,
+  "libraries": [
+    "m"
+  ],
+  "options": {
+    "VERSION": "0.0.1",
+    "RELEASE_NAME": "xtiled"
+  },
+  "definitions": [],
+  "copy": null,
+  "vapidir": "vapis",
+  "console": false,
+  "main": "CMakeLists.txt"
+}
